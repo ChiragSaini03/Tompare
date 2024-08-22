@@ -23,5 +23,5 @@ Service offered:-
 - > 
 
 
-### Team 1 will use the image storage and editing service offered by team 2.
-### Team 2 will use the the misc feature of team 1 which will be to change the filter of image.
+#### Team 1 will use the image storage and editing service offered by team 2.
+#### Team 2 will use the the misc feature of team 1 which will be to change the filter of image.
