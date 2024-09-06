@@ -1,5 +1,6 @@
 # Team 1:-
 This team contain a dedicated architecture which offers feature of updating different pictures for thumbnail of a video and a description and other users can select the best thumbnail amongst them.
+- > Temporary problem for starvation of a request if its unattended by any user for long time.
 
 Rakshit Verma,
 Khushal Yadav
@@ -20,7 +21,9 @@ Kartik Chawla
 Service offered:-
 - > Image storage
 - > Basic image editing (resizing, bluring, pixel enhancement)
-- > 
+- > Payment Service for buying premium
+- > Redacting of images
+
 
 
 #### Team 1 will use the image storage and editing service offered by team 2.
