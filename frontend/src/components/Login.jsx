@@ -5,6 +5,7 @@ const Login = (props) => {
 
     const logIn = () => {
       props.setLoginStatus(true);
+      props.setCookie('loginStatus', true, { path: '/' })
       navigate("/");
     }
 

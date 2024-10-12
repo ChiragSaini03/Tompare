@@ -4,13 +4,14 @@ const NavBar = (props) => {
     const navigate = useNavigate();
     const logOut = () => {
         props.setLoginStatus(false);
+        props.setCookie('loginStatus', false, { path: '/' });
         navigate("/")
     }
 
-    // console.log(props);
+    console.log(props);
   return (
     <>
-     {(props.loginStatus)?(
+     {(props.cookies.loginStatus)?(
       <nav className="bg-orange-200">
         <ul className="flex flex-row">
           <li className="text-xl font-semibold my-2 mx-4">
